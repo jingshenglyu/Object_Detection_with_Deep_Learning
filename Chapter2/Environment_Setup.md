@@ -4,7 +4,7 @@
  * @Author       : Jingsheng Lyu
  * @Date         : 2020-08-13 18:07:34
  * @LastEditors  : Jingsheng Lyu
- * @LastEditTime : 2020-08-13 22:37:59
+ * @LastEditTime : 2020-08-14 14:02:37
  * @FilePath     : /undefined/home/jingsheng/Object_Detection_with_Deep_Learning/Chapter2/Environment_Setup.md
  * @Github       : https://github.com/jingshenglyu
  * @Web          : https://jingshenglyu.github.io/
@@ -79,6 +79,7 @@ by running conda init? [yes|no]
         base                  *  /home/jingsheng/Software/anaconda3
         detectron2               /home/jingsheng/Software/anaconda3/envs/detectron2
         ```
+* ![1](images/1.png)
 
 ### 2.2 Enter this new enviroment named detectron2
 * Acticate the enviroment named detectron2
@@ -91,6 +92,7 @@ by running conda init? [yes|no]
     ```
     conda deactivate
     ```
+* ![2](images/2.png)
 
 ## 2.3 Install pytorch and other libraries
 * For PyTorch
@@ -100,6 +102,7 @@ by running conda init? [yes|no]
     ```
     conda install --channel https://conda.anaconda.org/menpo opencv3
     ```
+    * ![3](images/3.png)
     * *** Python Version for OpenCV ***
     *If your python version is >= 3.6, you will get ***the followed error*** because of the conflict.
         ```
@@ -144,7 +147,8 @@ by running conda init? [yes|no]
     conda activate detectron2
     python -m pip install -e detectron2
     ```
-
+    * ![4](images/4.png)
+    * ![5](images/5.png)
 ## 3. Download the dataset from [COCO](https://cocodataset.org/#download)
 * Here we need to download  
     * For images
@@ -164,5 +168,8 @@ by running conda init? [yes|no]
     sh pycharm.sh
     ```
 
-    * ***You can create a new **desktop entry** for start quickly. (Tools --> Create Desktop ENtry... by PyCharm)
+    * ***You can create a new **desktop entry** for start quickly. (Tools --> Create Desktop Entry... by PyCharm)
+
+## 5. Create a new project
+
     
